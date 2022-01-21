@@ -1,0 +1,97 @@
+
+  #dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background: linear-gradient(to top left, black, purple);
+  }
+  #sidebar {
+    text-align: center;
+    grid-row: 1/5;
+    spacing: 10px;
+    background-color: lightgray;
+    border: 1px solid grey;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: linear-gradient(to top left, gray, lightgray);
+  }
+  #box {
+    background-color: black;
+    height: 45%;
+    width: 80%;
+    margin: 0 auto;
+  }
+  img{
+    height: 65%;
+    width: 90%;
+  }
+  #websiteVisitors {
+    grid-row: 2/5;
+    grid-column: 2/5;
+    background-color: lightgray;
+    border: 1px solid grey;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to top left, gray, lightgray);
+  }
+  #reviews {
+    background-color: lightgray;
+    border: 1px solid grey;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to top left, gray, lightgray);
+  }
+  #averageRating {
+    background-color: lightgray;
+    border: 1px solid grey;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to top left, gray, lightgray);
+  }
+  #sentimentAnalysis {
+    background-color: lightgray;
+    border: 1px solid grey;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to top left, gray, lightgray);
+  }
+  #reviews > p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #averageRating > p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #sentimentAnalysis > p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #websiteVisitors > p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #sidebar > br {
+    margin: 15px;
+  }
+  ul {
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  li {
+    list-style: none;
+  }
+  
